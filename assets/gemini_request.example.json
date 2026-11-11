@@ -1,0 +1,10 @@
+{
+  "provider": "developer-api",
+  "model": "REPLACE_WITH_USER_CONFIRMED_MODEL_ID",
+  "task": "caption",
+  "source_text": "仅放入已经核对、获准外发的合成或脱敏汇总文字。",
+  "instructions": "保持数值、分母和统计限制，不增加因果结论。",
+  "consent_confirmed": false,
+  "data_minimized_confirmed": false,
+  "max_output_tokens": 1024
+}

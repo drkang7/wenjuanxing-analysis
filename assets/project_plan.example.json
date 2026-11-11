@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "project_id": "replace-with-local-project-name",
+  "stage": "intake",
+  "paths": {
+    "raw_input": null,
+    "clean_input": null,
+    "stage1_notebook": "data_preparation.ipynb",
+    "stage2_notebook": "formal_analysis.ipynb",
+    "results_workbook": "analysis_results.xlsx",
+    "figure_dir": "figures"
+  },
+  "workbook": {
+    "expected_sheets": [],
+    "response_sheet": null,
+    "dictionary_sheet": null,
+    "dictionary_allowed_columns": [],
+    "dictionary_forbidden_columns": []
+  },
+  "fields": {},
+  "special_codes_by_question": {},
+  "routes": [],
+  "duration": {
+    "source_field": null,
+    "bare_numeric_unit": null,
+    "candidate_protocol": null,
+    "approved": false
+  },
+  "screening": {
+    "approved": false,
+    "rules": [],
+    "output_file": null,
+    "log_sheet": "exclusion_log"
+  },
+  "analysis_plan": {
+    "approved": false,
+    "alpha": null,
+    "alternative": "two-sided",
+    "answer_keys": {},
+    "score_bands": {},
+    "group_mappings": {},
+    "denominators": {},
+    "analyses": [],
+    "chi_square_policy": null,
+    "posthoc": null
+  },
+  "presentation": {
+    "language": "zh-CN",
+    "fonts": [],
+    "formats": ["png"],
+    "dpi": 300,
+    "table_style": null
+  },
+  "optional_integrations": {
+    "gemini": "ask_on_first_use",
+    "lieflat_less_ai_tone": "ask_when_relevant",
+    "lieflat_charts": "ask_when_relevant"
+  }
+}

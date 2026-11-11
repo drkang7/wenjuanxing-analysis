@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.survey-local/
+*credentials*.json
+*token*.json
+data/
+outputs/
+*.xlsx
+*.xls
+*.csv
+*.ipynb
+*.docx
+*.pdf

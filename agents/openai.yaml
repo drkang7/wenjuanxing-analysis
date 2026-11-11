@@ -1,0 +1,6 @@
+interface:
+  display_name: "问卷星数据分析"
+  short_description: "分阶段核验、筛选和分析问卷，复用现有成果返工，可选文字与图表技能"
+  default_prompt: "使用 $wenjuanxing-analysis，先核对本项目文件和当前阶段，首次询问是否接入 Gemini API，再按确认方案处理问卷；不生成论文正文。"
+policy:
+  allow_implicit_invocation: true
